@@ -1,0 +1,21 @@
+{
+  "name": "snap-rag-edge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "mammoth": "^1.12.3",
+    "pdfjs-dist": "^4.0.379",
+    "tesseract.js": "^5.0.5"
+  },
+  "devDependencies": {
+    "qrcode": "^1.5.4",
+    "vite": "^5.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "rhythmx-86624"
+  },
+  "targets": {
+    "rhythmx-86624": {
+      "hosting": {
+        "snaprag-edge": [
+          "snaprag-edge"
+        ]
+      }
+    }
+  }
+}

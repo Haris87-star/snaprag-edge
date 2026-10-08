@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.snaprag.edge.ai",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7F:0E:52:D7:11:86:10:5E:2B:A2:2E:7F:F3:B3:36:9C:87:B0:9A:BB:3D:09:A0:5C:B9:36:BF:B3:79"
+      ]
+    }
+  }
+]
